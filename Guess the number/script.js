@@ -49,10 +49,11 @@ function checkGuess(guess) {
     displayMessage('Number is TOO low');
   } else {
     displayMessage('Number is TOO high');
-  }
+  }``
 }
 
 function displayGuess(guess) {
+  // clears the input box
   userInput.value = '';
   // append guess to the guesses box
   guessSlot.innerHTML += `${guess}, `;
@@ -67,6 +68,7 @@ function displayMessage(message) {
 
 function endGame() {
   userInput.value = '';
+  // disabled input box
   userInput.setAttribute('disabled', '');
   playGame = false;
 

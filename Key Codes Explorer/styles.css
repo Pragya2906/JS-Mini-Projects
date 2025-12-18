@@ -1,7 +1,6 @@
 .nav {
     text-align: center;
 }
-
 .nav-button {
     display: inline-block;
     margin: 15px 10px;
@@ -13,7 +12,6 @@
     color: black;
     font-weight: bold;
 }
-
 table {
     width: 500px;
     border-collapse: collapse;
@@ -24,7 +22,6 @@ table {
     font-family: Arial, sans-serif;
     box-shadow: 0 0 15px rgba(255, 255, 255, 0.1);
 }
-
 th {
     background: #292929;
     padding: 16px;
@@ -36,7 +33,6 @@ th {
     border-right: 2px solid #555;
     /* column line */
 }
-
 td {
     padding: 16px;
     font-size: 18px;
@@ -46,23 +42,19 @@ td {
     border-right: 1px solid #555;
     /* column line */
 }
-
 tr:last-child td {
     border-bottom: none;
 }
-
 td:last-child,
 th:last-child {
     border-right: none;
     /* remove right border from last column */
 }
-
 .color {
     display: flex;
     justify-content: center;
     margin-top: 30px;
 }
-
 .project {
     background-color: #1c1c1c;
     color: #ffffff;
@@ -72,7 +64,6 @@ th:last-child {
     text-align: center;
     height: 100vh;
 }
-
 .color {
     color: aliceblue;
     display: flex;

@@ -1,3 +1,11 @@
 Basic Projects (exc JS)/
 Basic Porjects (inc JS)/
 Symfy/
+
+node_modules/
+
+dist/
+build/
+
+.env
+.DS_Store

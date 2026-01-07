@@ -49,7 +49,7 @@ function checkGuess(guess) {
     displayMessage('Number is TOO low');
   } else {
     displayMessage('Number is TOO high');
-  }``
+  } ``
 }
 
 function displayGuess(guess) {

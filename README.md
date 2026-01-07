@@ -1,4 +1,4 @@
-<img width="562" height="749" alt="image" src="https://github.com/user-attachments/assets/c5809160-34c7-4433-b8aa-83f4f78997cb" /># JavaScript Mini Projects
+# JavaScript Mini Projects
 
 A collection of small JavaScript projects I built to strengthen core logic, DOM manipulation, and event handling skills.
 

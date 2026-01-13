@@ -49,7 +49,7 @@ function checkGuess(guess) {
     displayMessage('Number is TOO low');
   } else {
     displayMessage('Number is TOO high');
-  } ``
+  } 
 }
 
 function displayGuess(guess) {
@@ -59,7 +59,7 @@ function displayGuess(guess) {
   guessSlot.innerHTML += `${guess}, `;
   numGuess++;
   // remaining attempts: after increment, 11 - numGuess gives correct remaining count
-  remaining.innerHTML = `${11 - numGuess}`;
+  remaining.innerHTML = `${10 - (numGuess - 1)}`;
 }
 
 function displayMessage(message) {
